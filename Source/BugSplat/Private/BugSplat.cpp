@@ -14,6 +14,7 @@
 #include <Editor/MainFrame/Public/Interfaces/IMainFrameModule.h>
 #include <BugSplatEditorSettings.h>
 #include "BugSplatRuntime.h"
+#include "PropertyEditorModule.h"
 
 static const FName BugSplatTabName("BugSplat");
 
