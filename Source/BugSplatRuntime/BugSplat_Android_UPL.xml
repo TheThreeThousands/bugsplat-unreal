@@ -17,10 +17,10 @@
 
         <if condition="bIsShipping">
             <true>
-                <setString result="baseArtifactsDir" value="$S(BuildDir)/gradle/app/build/intermediates/merged_native_libs/release"/>
+                <setString result="baseArtifactsDir" value="$S(BuildDir)/../gradle/app/build/intermediates/merged_native_libs/release"/>
             </true>
             <false>
-                <setString result="baseArtifactsDir" value="$S(BuildDir)/gradle/app/build/intermediates/merged_native_libs/debug"/>
+                <setString result="baseArtifactsDir" value="$S(BuildDir)/../gradle/app/build/intermediates/merged_native_libs/debug"/>
             </false>
         </if>
     </init>
