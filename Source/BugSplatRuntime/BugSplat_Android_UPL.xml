@@ -115,7 +115,9 @@
                             task.name == 'ue4CompleteDebug' ||
                             task.name == 'ue4CompleteRelease' ||
                             task.name == 'ueCompleteDebug' ||
-                            task.name == 'ueCompleteRelease'
+                            task.name == 'ueCompleteRelease' ||
+                            task.name == 'ueCompleteBundleDebug' ||
+                            task.name == 'ueCompleteBundleRelease'
                         ) {
                             task.finalizedBy 'uploadSymbols'
                         }
